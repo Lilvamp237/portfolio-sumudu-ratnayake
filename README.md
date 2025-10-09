@@ -38,6 +38,6 @@ This website is deployed using GitHub Pages.
 
 ## 📫 Contact
 
-- Email: sumuduratnayake.023@gmail.com
+- Email: ishadi.leoni@gmail.com
 - LinkedIn: [Sumudu Ratnayake](https://linkedin.com/in/sumudu-ratnayake-782b90235)
 - GitHub: [@Lilvamp237](https://github.com/Lilvamp237)
