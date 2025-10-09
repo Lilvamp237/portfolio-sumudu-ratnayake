@@ -3,7 +3,7 @@
 A personal portfolio website showcasing my work as a Computer Science undergraduate aspiring to become a game developer.
 
 ## 🌐 Live Demo
-[Visit Website](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+[Visit Website](https://Lilvamp237.github.io/portfolio-sumudu-ratnayake/)
 
 ## 📋 Features
 - Responsive design
