@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Resume | Sumudu Ratnayake</title>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="portfolio.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+        <script type="text/javascript" src="portfolio.js"></script>
+
+    </head>
+
+    <body style="margin: 0; padding: 0;">
+
+        <nav id="page" style="position: fixed; top: 0; left: 0; right: 0; width: 100%; z-index: 1000;">
+            <div class="logo">
+                SUMUDU RATNAYAKE
+            </div>
+            <div id="ullist">
+                <ul class="links">
+                <input type="checkbox" id="toggle" />
+                <label for="toggle" class="hamburger">&#9776;</label> 
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="resume" style="padding-top: 75px;">
+            <div class="section-container">
+                <div style="text-align: center; margin-bottom: 30px; position: relative; z-index: 1;">
+                    <button onclick="downloadResume()" class="download-btn">
+                        <i class="fas fa-download"></i> Download Resume as PDF
+                    </button>
+                </div>
+                
+                <div id="resume-content">
+                    <h1 class="section-title">Résumé</h1>
+                    <div class="resume-content">
+                        <div class="resume-sidebar">
+                            <div class="resume-section">
+                                <h3><i class="fas fa-user"></i> Personal Details</h3>
+                                <ul>
+                                    <li><img src="dob.png" height="15px"> 07.03.2002</li>
+                                    <li><img src="gen.png" height="15px"> Female</li>
+                                    <li><img src="flag.png" height="15px"> Sri Lankan</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="resume-section">
+                                <h3><i class="fas fa-language"></i> Languages</h3>
+                                <ul>
+                                    <li>Sinhala</li>
+                                    <li>English</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="resume-section">
+                                <h3><i class="fas fa-heart"></i> Hobbies</h3>
+                                <ul>
+                                    <li>Baking</li>
+                                    <li>Playing guitar</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="resume-section">
+                                <h3><i class="fas fa-code"></i> Skills</h3>
+                                <div class="skills-container">
+                                    <span class="skill-badge">C++</span>
+                                    <span class="skill-badge">Java</span>
+                                    <span class="skill-badge">Python</span>
+                                    <span class="skill-badge">SQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-main">
+                            <div class="education-item">
+                                <div class="edu-header">
+                                    <div>
+                                        <h3><i class="fas fa-graduation-cap"></i> General Sir John Kotelawala Defence University</h3>
+                                        <p class="edu-degree">BSc.(Hons) in Computer Science</p>
+                                    </div>
+                                    <div class="edu-meta">
+                                        <p class="edu-date"><i class="fas fa-calendar"></i> Jan 2023 - Present</p>
+                                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Ratmalana, SL</p>
+                                    </div>
+                                </div>
+                                <div class="edu-courses">
+                                    <p><strong>Relevant Courses:</strong></p>
+                                    <ul>
+                                        <li>Object Oriented Programming</li>
+                                        <li>Probability and Statistics</li>
+                                        <li>Computer Networks</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="education-item">
+                                <div class="edu-header">
+                                    <div>
+                                        <h3><i class="fas fa-school"></i> St. Lawrence's Convent</h3>
+                                        <p class="edu-degree">GCE Advanced Level</p>
+                                    </div>
+                                    <div class="edu-meta">
+                                        <p class="edu-date"><i class="fas fa-calendar"></i> April 2019 - Jan 2022</p>
+                                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Colombo 06, SL</p>
+                                    </div>
+                                </div>
+                                <div class="edu-subjects">
+                                    <div class="subjects-grid">
+                                        <div class="subject-item">
+                                            <span class="subject-name">Combined Maths</span>
+                                            <span class="subject-grade">C</span>
+                                        </div>
+                                        <div class="subject-item">
+                                            <span class="subject-name">Physics</span>
+                                            <span class="subject-grade">C</span>
+                                        </div>
+                                        <div class="subject-item">
+                                            <span class="subject-name">ICT</span>
+                                            <span class="subject-grade">B</span>
+                                        </div>
+                                        <div class="subject-item">
+                                            <span class="subject-name">General English</span>
+                                            <span class="subject-grade">A</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education-item">
+                                <div class="edu-header">
+                                    <div>
+                                        <h3><i class="fas fa-school"></i> St. Lawrence's Convent</h3>
+                                        <p class="edu-degree">GCE Ordinary Level</p>
+                                    </div>
+                                    <div class="edu-meta">
+                                        <p class="edu-date"><i class="fas fa-calendar"></i> Jan 2008 - Dec 2018</p>
+                                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Colombo 06, SL</p>
+                                    </div>
+                                </div>
+                                <div class="edu-subjects">
+                                    <div class="subjects-grid-ol">
+                                        <div class="subject-item"><span>Mathematics</span><span class="grade-a">A</span></div>
+                                        <div class="subject-item"><span>Information Technology</span><span class="grade-a">A</span></div>
+                                        <div class="subject-item"><span>Roman Catholic</span><span class="grade-a">A</span></div>
+                                        <div class="subject-item"><span>Business Studies</span><span class="grade-a">A</span></div>
+                                        <div class="subject-item"><span>English</span><span class="grade-a">A</span></div>
+                                        <div class="subject-item"><span>Western Music</span><span class="grade-b">B</span></div>
+                                        <div class="subject-item"><span>Science</span><span class="grade-b">B</span></div>
+                                        <div class="subject-item"><span>Sinhala</span><span class="grade-b">B</span></div>
+                                        <div class="subject-item"><span>History</span><span class="grade-b">B</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot">
+            <footer>
+               All Rights Reserved ©2023 Sumudu Ratnayake
+            </footer>
+        </div>
+
+    </body>
+</html>
